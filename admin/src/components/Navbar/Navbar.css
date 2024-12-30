@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo{
+    width: max(10%, 80px);
+}
+.navbar .profile{
+    width: 40px;
+}
+.navbar h1{
+    font-size: 30px;
+    color: #60402b;
+    font-family: "Arial Black" ;
+}
+.navbar-left{
+    margin-bottom: 10px;
+}

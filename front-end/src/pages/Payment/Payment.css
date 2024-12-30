@@ -1,0 +1,46 @@
+.payment{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.qrcode{
+    display: flex;
+    max-width: max(40%, 550px);
+}
+
+.qrcode img {
+    display: flex;
+}
+
+.infor {
+    margin-top:100px;
+    width: 100%;
+    max-width: max(40%, 500px);
+}
+.del-infor h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.del-infor .cart-total-detail {
+    margin-bottom: 5px;
+}
+.head1 {
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4e3423;
+}
+@media (max-width: 1000px) {
+    .payment {
+        display:grid;
+        margin:auto;
+    }
+    .infor {
+        margin:auto;
+    }
+}
